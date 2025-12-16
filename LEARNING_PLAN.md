@@ -36,21 +36,23 @@
 
 ---
 
-### [ ] 02. Prompts & Messages（提示词与消息）
+### [ ] 02. Prompts & Messages（提示词工程）
 **文件**：`notebook/02_prompts.ipynb`
 
 **学习内容**：
-- ✓ Prompt Templates（提示词模板）
+- ✓ Prompt Templates的概念和作用
 - ✓ ChatPromptTemplate的使用
+- ✓ **Pipe操作符（|）和链式调用**
 - ✓ 变量注入和动态提示词
+- ✓ Partial Variables（部分变量填充）
 - ✓ Few-shot Learning（少样本学习）
 - ✓ 提示词工程最佳实践
-- ✓ MessagesPlaceholder用法
 
 **核心要点**：
-- 提示词模板让提示词可复用
-- 使用变量动态构建提示词
-- Few-shot examples提高模型性能
+- Prompt Template让提示词变成可编程组件
+- **Pipe操作符（|）是LCEL的核心，用于链式调用**
+- Few-shot learning通过示例引导模型
+- 提示词工程是影响AI输出质量的关键
 
 ---
 
