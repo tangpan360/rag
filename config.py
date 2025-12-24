@@ -11,6 +11,7 @@ class Config:
     BAILIAN_BASE_URL = os.getenv("BAILIAN_BASE_URL")
     CLOUD_API_KEY = os.getenv("CLOUD_API_KEY")
     CLOUD_BASE_URL = os.getenv("CLOUD_BASE_URL")
+    LANGSMITH_API_KEY = os.getenv("LANGSMITH_API_KEY")
 
 
 config = Config()
@@ -24,4 +25,4 @@ if __name__ == "__main__":
     print(config.BAILIAN_BASE_URL)
     print(config.CLOUD_API_KEY)
     print(config.CLOUD_BASE_URL)
-    
+    print(config.LANGSMITH_API_KEY)
