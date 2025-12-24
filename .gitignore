@@ -3,3 +3,8 @@
 .vscode/
 .venv/
 __pycache__/
+.langgraph_api/
+.gradio/
+data/
+docs/
+notebook/test.ipynb
